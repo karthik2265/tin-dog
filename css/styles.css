@@ -1,0 +1,212 @@
+/* html elements */
+
+body{
+  font-family: "monteserrat"serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* headings */
+
+h1 {
+  color: #ffffff;
+  font-weight: 800;
+  font-family: "monteserrat-black"serif;
+  padding-top: 4.5rem;
+  line-height: 1.5;
+  padding-bottom: 3rem;
+  font-size: 3.5rem;
+}
+
+h2{
+  font-style: "montserrat",serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+h3{
+  font-style: "montserrat",serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.65;
+  color: #fff;
+}
+
+
+
+
+/* title section */
+.title {
+  background-color: #ff4c68;
+}
+
+.title-img{
+  width: 60%;
+  padding-top: 4rem;
+  transform: rotate(25deg);
+  margin-left:4.5rem;
+  padding-bottom: 4rem;
+  position: absolute;
+  left:10%;
+}
+
+.btn{   /*download button it is in title section as well as cta section */
+  margin-right:1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container-fluid { /*everything in title section is here */
+  padding: 0 15% 5.8%;
+}
+
+/* navigation bar in title section */
+
+.navbar-brand{
+  font-size: 3.35rem;
+  font-weight:600;
+}
+
+.navbar{
+  padding-top: 0.25rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.nav-link{
+  font-size: 1.2rem;
+  padding-bottom: 0;
+  font-family: "Montserrat-light"serif;
+}
+
+.nav-item{
+  padding-right: 1.125rem;
+}
+
+
+/* features section */
+
+#features{
+  background-color: white;
+  z-index: 1;
+  position: relative;
+  padding: 7% 12%;
+
+}
+
+ .col-lg-4{ /* each feature in feauters section which are side by side have same class i.e col-lg-4  */
+  margin:0;
+  text-align: center;
+  padding: 5%;
+}
+
+
+/* testimonials secction */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonial-img{
+  width: 11.5%;
+  border-radius: 100%;
+  margin: 1.25rem;
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-img{
+  width: 13%;
+  margin: 1.25rem 1.25rem 1.875rem;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+
+}
+
+/* priceing section */
+
+.card{
+  text-align: center;
+  font-style: "montserrat",serif;
+}
+
+.pricing{
+  text-align: center;
+  padding: 4.6875rem;
+}
+
+.pricing-simple{
+  color: black;
+}
+
+
+/* call to action cta section */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding-top: 5.5rem;
+  padding-bottom: 6rem;
+
+}
+
+.find{ /* i used this for padding and to increase size of h3 in cta section */
+  font-weight: 900;
+  font-style: "montserrat",serif;
+  font-size: 3.5rem;
+  padding: 3% 16%;
+}
+
+/* footer section i.e last section */
+#footer{
+  text-align: center;
+  background-color:white;
+}
+
+/* icons*/
+
+ .fa-1x{  /*icons at the last i.e instagram,gmail,twitter */
+  color: black;
+  padding-top: 4%;
+  padding-bottom: 0.1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+/*big icons in feauters section */
+
+.fas{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.fas:hover{
+  color: #ff4c68;
+}
+
+
+/* tablet or phone mode */
+
+@media (max-width:991px) {
+/* title section */
+.title{
+  text-align: center;
+}
+
+.title-img{
+    position: static;
+    transform: rotate(0);
+    z-index: 0;
+    margin: auto;
+  }
+}
